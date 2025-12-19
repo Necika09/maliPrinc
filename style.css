@@ -1,0 +1,119 @@
+/* Naslove h2 sam napravio po uputama, zato su ispali tako mali. */
+
+*{
+    background-color: #efefef;
+    font-size: 14px;
+    font-family: 'Calibri', 'Arial', system-ui;
+}
+h1{
+    font-size: 5vw;
+    font-family: 'Indie Flower';
+    letter-spacing: 0.5cm;
+    text-align: center;
+    line-height: 2cm;
+    text-shadow: -2px 2px 2px #000;
+}
+h1 span{
+    font-size: inherit;
+    font-family: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+    text-shadow: inherit;
+    display: inline-block;
+}
+q{
+    font-size: 1.0em;
+    text-transform: uppercase;
+}
+li{
+    font-weight: 500;
+}
+p, pre{
+    text-align: justify ;
+    text-indent: 0.4cm;
+}
+h2{
+    font-size: 0.5em;
+}
+.centriranje{
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
+.social{
+    width: 30px;
+    height: 30px;
+}
+.social:hover{
+    border-radius: 34px;
+}
+table{
+    width: 100%;
+    border: 1px solid green;
+    text-align: center;
+}
+#slikeTablica{
+    display: inline;
+}
+td{
+    border-radius: 20px;
+    border: #ffd700 dotted;
+}
+td img{
+    width: 50%;
+}
+nav{
+    position: fixed;
+    height: 40px;
+    top: 0px;
+}
+.desno{
+    float: right;
+    font-size: 10pt;
+    margin-top: 12pt;
+}
+.separator{
+    padding: 4px;
+    color: grey;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 5px;
+}
+form{
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: fit-content;
+    padding: 20px;
+    
+}
+form h2{
+    font-size: 1.5em;
+    background-color: lightgray;
+    border: 0.5px solid black;
+    padding: 5px;
+}
+form input{
+    background-color: lightgrey;
+    padding: 10px;
+}
+input[type="submit"] {
+    all: unset; 
+    background-color: hotpink;
+    color: black;
+    border: 0.5px solid deeppink;
+}
+input[type="submit"]:hover{
+    opacity: 75%;
+}
+figure{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+figure img{
+    width: 100%;
+}
